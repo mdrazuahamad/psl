@@ -38,7 +38,6 @@ const Players = () => {
 
             {/* Player Info */}
             <div className='flex items-center gap-6 text-gray-300 text-sm'>
-              <span>Age: {player.age}</span>
               <span>Position: {player.position}</span>
             </div>
 
