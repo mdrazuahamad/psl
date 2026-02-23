@@ -1,4 +1,5 @@
-// Footer.jsx
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <footer className='bg-gray-900 text-gray-300 py-8'>
@@ -13,15 +14,15 @@ const Footer = () => {
 
         {/* Links */}
         <div className='flex flex-wrap gap-6'>
-          <a href='/' className='hover:text-white transition'>
+          <Link to='/' className='hover:text-white transition'>
             Home
-          </a>
-          <a href='/players' className='hover:text-white transition'>
+          </Link>
+          <Link to='/players' className='hover:text-white transition'>
             Players
-          </a>
-          <a href='/schedule' className='hover:text-white transition'>
+          </Link>
+          <Link to='/schedule' className='hover:text-white transition'>
             Schedule
-          </a>
+          </Link>
         </div>
       </div>
 
