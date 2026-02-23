@@ -23,7 +23,7 @@ const Players = () => {
             className='flex items-center justify-between bg-gray-900 rounded-xl p-4 hover:bg-gray-800 transition duration-300 shadow-md'>
             {/* Player Image + Name */}
             <div
-              className='flex items-center gap-4 cursor-pointer'
+              className='flex w-md items-center gap-4 cursor-pointer'
               onClick={() => navigate(`/player/${player.id}`)}>
               <img
                 src={player.image}
