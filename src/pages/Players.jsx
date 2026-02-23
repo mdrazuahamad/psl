@@ -44,7 +44,7 @@ const Players = () => {
             {/* View Profile Button */}
             <button
               onClick={() => navigate(`/player/${player.id}`)}
-              className='px-4 py-2 bg-blue-600 text-white font-semibold rounded-full shadow hover:scale-105 transition duration-300'>
+              className='px-4 py-2 bg-blue-600 text-white font-semibold rounded-full shadow hover:scale-105 transition duration-300 cursor-pointer'>
               View Profile
             </button>
           </div>
