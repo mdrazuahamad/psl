@@ -3,7 +3,7 @@ import matches from "../data/matches";
 import { useNavigate } from "react-router-dom";
 
 const Home = () => {
-  const topPlayers = players.slice(0, 3);
+  const topPlayers = players.slice(0, 12);
   const upcomingMatches = matches;
   const navigate = useNavigate();
 
@@ -57,11 +57,11 @@ const Home = () => {
           <h2 className='text-3xl md:text-4xl font-extrabold text-accent mb-8'>
             Top Players
           </h2>
-          <div className='grid md:grid-cols-3 sm:grid-cols-2 gap-8'>
+          <div className='grid md:grid-cols-4 sm:grid-cols-2 gap-8'>
             {topPlayers.map((player) => (
               <div
                 key={player.id}
-                className='p-6 pt-38 pb-38 relative rounded-3xl overflow-hidden shadow-lg hover:scale-105 transition-transform border border-white/20'
+                className='p-6 pt-35 pb-35 relative rounded-3xl overflow-hidden shadow-lg hover:scale-105 transition-transform border border-white/20'
                 style={{
                   backgroundImage: `url(${player.image})`,
                   backgroundSize: "cover",
