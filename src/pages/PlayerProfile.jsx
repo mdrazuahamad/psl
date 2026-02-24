@@ -11,7 +11,7 @@ const PlayerProfile = () => {
     return <h2 className='p-10 text-center text-white text-2xl'>Player Not Found</h2>;
 
   return (
-    <div className='min-h-screen bg-gray-900 flex items-center justify-center p-6 flex gap-20 pt-20'>
+    <div className='min-h-screen bg-gray-900 flex items-center justify-center p-6 flex gap-20 pt-50'>
       {/* Back Button */}
       <button
         onClick={() => navigate("/players")}
@@ -22,7 +22,7 @@ const PlayerProfile = () => {
       <div className='bg-white rounded-2xl shadow-2xl overflow-hidden w-full max-w-2xl'>
         {/* Right Side — Player Details + Background Image */}
         <div
-          className='p-10 pt-40 pb-40 flex flex-col justify-center relative'
+          className='p-10 pt-52 pb-52 flex flex-col justify-center relative'
           style={{
             backgroundImage: `url(${player.image})`,
             backgroundSize: "cover",

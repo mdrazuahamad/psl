@@ -3,7 +3,12 @@ import matches from "../data/matches";
 import { useNavigate } from "react-router-dom";
 
 const Home = () => {
-  const topPlayers = players.slice(0, 12);
+  const categoryOrder = { A: 1, B: 2 };
+
+  const topPlayers = players
+    .filter((player) => player.category === "A" || player.category === "B")
+    .sort((a, b) => categoryOrder[a.category] - categoryOrder[b.category])
+    .slice(0, 8);
   const upcomingMatches = matches;
   const navigate = useNavigate();
 
