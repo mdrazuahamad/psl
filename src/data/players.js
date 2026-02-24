@@ -8,6 +8,8 @@ import image7 from "../assets/images/Rifat.jpg";
 import image8 from "../assets/images/Bayazid.jpg";
 import image9 from "../assets/images/Masud.jpg";
 import image10 from "../assets/images/Yeasin.jpg";
+import image11 from "../assets/images/Riyad.jpg";
+import image12 from "../assets/images/Nayem.jpg";
 
 const player = [
   {
@@ -80,14 +82,14 @@ const player = [
   },
   {
     id: 7,
-    category: "C",
-    name: "Nahid",
-    age: 18,
-    position: "Midfielder",
+    category: "B",
+    name: "Riyad",
+    age: 14,
+    position: "Defender",
     preferredFoot: "Right",
-    height: "5 ft 10 in",
+    height: "5 ft 9 in",
     nationality: "Bangladesh",
-    image: image1,
+    image: image11,
   },
   {
     id: 8,
@@ -104,7 +106,7 @@ const player = [
   {
     id: 9,
     category: "C",
-    name: "  Nahid",
+    name: "Nahid",
     age: 18,
     position: "Midfielder",
     preferredFoot: "Right",
@@ -288,7 +290,7 @@ const player = [
     preferredFoot: "Right",
     height: "5 ft 6 in",
     nationality: "Bangladesh",
-    image: image1,
+    image: image12,
   },
   {
     id: 26,
