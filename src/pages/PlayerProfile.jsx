@@ -2,10 +2,11 @@ import { useParams, useNavigate } from "react-router-dom";
 import players from "../data/players";
 
 const PlayerProfile = () => {
-  const { id } = useParams();
-  const navigate = useNavigate();
+  const { slug } = useParams();
 
-  const player = players.find((p) => p.id === parseInt(id));
+  const player = players.find(
+    (p) => p.name.toLowerCase().replace(/[^a-z0-9]+/g, "-") === slug,
+  );
 
   if (!player)
     return <h2 className='p-10 text-center text-white text-2xl'>Player Not Found</h2>;
