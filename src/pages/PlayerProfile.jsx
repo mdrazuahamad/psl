@@ -1,12 +1,16 @@
 import { useParams, useNavigate } from "react-router-dom";
 import players from "../data/players";
+const createSlug = (name) =>
+  name
+    .toLowerCase()
+    .trim()
+    .replace(/[^a-z0-9]+/g, "-");
 
 const PlayerProfile = () => {
   const { slug } = useParams();
+  const navigate = useNavigate();
 
-  const player = players.find(
-    (p) => p.name.toLowerCase().replace(/[^a-z0-9]+/g, "-") === slug,
-  );
+  const player = players.find((p) => createSlug(p.name) === slug);
 
   if (!player)
     return <h2 className='p-10 text-center text-white text-2xl'>Player Not Found</h2>;

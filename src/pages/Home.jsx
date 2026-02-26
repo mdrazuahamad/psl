@@ -11,7 +11,11 @@ const Home = () => {
     .slice(0, 8);
   const upcomingMatches = matches;
   const navigate = useNavigate();
-
+  const createSlug = (name) =>
+    name
+      .toLowerCase()
+      .trim()
+      .replace(/[^a-z0-9]+/g, "-");
   return (
     <div className='w-full'>
       {/* Hero Section */}
@@ -116,7 +120,7 @@ const Home = () => {
 
                   <div className='mt-10'>
                     <button
-                      onClick={() => navigate(`/player/${player.id}`)}
+                      onClick={() => navigate(`/player/${createSlug(player.name)}`)}
                       className='px-4 py-2 bg-blue-600 text-white font-semibold shadow hover:scale-105 transition duration-300 cursor-pointer'>
                       View Profile
                     </button>

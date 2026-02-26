@@ -22,7 +22,11 @@ const Players = () => {
   const goalkeepers = sortedPlayers.filter(
     (p) => p.position.toLowerCase() === "goalkeeper",
   );
-
+  const createSlug = (name) =>
+    name
+      .toLowerCase()
+      .trim()
+      .replace(/[^a-z0-9]+/g, "-");
   const Section = ({ title, players }) => (
     <section className='mb-16 mt-16'>
       <h2 className='text-3xl md:text-4xl font-extrabold text-white mb-6 uppercase tracking-wide'>
@@ -53,7 +57,7 @@ const Players = () => {
             </div>
 
             <button
-              onClick={() => navigate(`/player/${player.id}`)}
+              onClick={() => navigate(`/player/${createSlug(player.name)}`)}
               className='px-4 py-2 bg-blue-600 text-white font-semibold rounded-full shadow hover:scale-105 transition duration-300'>
               View Profile
             </button>
