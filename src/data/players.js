@@ -1,4 +1,5 @@
 import image1 from "../assets/images/MUNNA.jpg";
+import profileImage1 from "../assets/images/ProfileMUNNA.jpg";
 import image2 from "../assets/images/Arafat.jpg";
 import image3 from "../assets/images/toufiq.jpg";
 import image4 from "../assets/images/asif.jpg";
@@ -23,6 +24,7 @@ const player = [
     height: "6ft",
     nationality: "Bangladesh",
     image: image1,
+    profileImage: profileImage1,
   },
   {
     id: 2,
@@ -162,8 +164,8 @@ const player = [
   },
   {
     id: 14,
-    category: "B",
-    name: "Toufiq",
+    category: "A",
+    name: "Tarif",
     age: 17,
     position: "Defender",
     preferredFoot: "Right",
