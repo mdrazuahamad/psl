@@ -86,7 +86,7 @@ const Players = () => {
                       <img
                         src={player.profileImage}
                         alt={player.name}
-                        className='w-16 h-16 object-cover rounded-full border-2 border-white/20'
+                        className='w-18 h-18 object-cover rounded-full border-2 border-white/20'
                       />
                       <div>
                         <h3 className='text-xl font-bold text-white'>{player.name}</h3>
@@ -170,7 +170,7 @@ const Players = () => {
               <h2 className='text-4xl font-bold mb-4'>{modalPlayer.name}</h2>
               <button
                 onClick={() => setModalPlayer(null)}
-                className='px-3 py-1 bg-red-600 rounded-full font-bold hover:bg-red-700 transition'>
+                className='px-3 py-1 bg-red-600 rounded-full font-bold hover:bg-red-700 transition cursor-pointer'>
                 X
               </button>
             </div>

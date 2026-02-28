@@ -1,6 +1,8 @@
+import munna from "../assets/images/MUNNA.jpg";
 import image1 from "../assets/images/MUNNA.jpg";
 import profileImage1 from "../assets/images/ProfileMUNNA.jpg";
 import image2 from "../assets/images/Arafat.jpg";
+import profileImage2 from "../assets/images/profileArafat.jpg";
 import image3 from "../assets/images/toufiq.jpg";
 import image4 from "../assets/images/asif.jpg";
 import image5 from "../assets/images/NAHID.jpg";
@@ -23,7 +25,7 @@ const player = [
     preferredFoot: "Right",
     height: "6ft",
     nationality: "Bangladesh",
-    image: image1,
+    image: munna,
     profileImage: profileImage1,
   },
   {
@@ -36,6 +38,7 @@ const player = [
     height: "5 ft 8 in",
     nationality: "Bangladesh",
     image: image2,
+    profileImage: profileImage2,
   },
   {
     id: 3,
@@ -107,12 +110,12 @@ const player = [
 
   {
     id: 9,
-    category: "C",
-    name: "Nahid",
-    age: 18,
-    position: "Midfielder",
-    preferredFoot: "Right",
-    height: "5 ft 10 in",
+    category: "A",
+    name: "Jahid",
+    age: 21,
+    position: "Forward",
+    preferredFoot: "Both",
+    height: "5 ft 2 in",
     nationality: "Bangladesh",
     image: image1,
   },
@@ -153,8 +156,8 @@ const player = [
   },
   {
     id: 13,
-    category: "B",
-    name: "Toufiq",
+    category: "A",
+    name: "Joshim",
     age: 17,
     position: "Defender",
     preferredFoot: "Right",
@@ -167,7 +170,7 @@ const player = [
     category: "A",
     name: "Tarif",
     age: 17,
-    position: "Defender",
+    position: "Forward",
     preferredFoot: "Right",
     height: "5 ft 8 in",
     nationality: "Bangladesh",
@@ -175,12 +178,12 @@ const player = [
   },
   {
     id: 15,
-    category: "B",
-    name: "Asif",
-    age: 17,
-    position: "Defender",
+    category: "A",
+    name: "Milon",
+    age: 21,
+    position: "Forward",
     preferredFoot: "Right",
-    height: "5 ft 5 in",
+    height: "5 ft 6 in",
     nationality: "Bangladesh",
     image: image1,
   },
@@ -324,6 +327,28 @@ const player = [
     position: "Midfielder",
     preferredFoot: "Right",
     height: "5 ft 5 in",
+    nationality: "Bangladesh",
+    image: image1,
+  },
+  {
+    id: 29,
+    category: "A",
+    name: "Hussain",
+    age: 18,
+    position: "Forward",
+    preferredFoot: "Right",
+    height: "5 ft 3 in",
+    nationality: "Bangladesh",
+    image: image1,
+  },
+  {
+    id: 30,
+    category: "A",
+    name: "Hasibul",
+    age: 34,
+    position: "Forward",
+    preferredFoot: "Right",
+    height: "5 ft 3 in",
     nationality: "Bangladesh",
     image: image1,
   },
