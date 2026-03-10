@@ -5,7 +5,7 @@ import image2 from "../assets/images/Arafat.jpg";
 import profileImage2 from "../assets/images/profileArafat.jpg";
 import image3 from "../assets/images/toufiq.jpg";
 import image4 from "../assets/images/asif.jpg";
-import image5 from "../assets/images/NAHID.jpg";
+import NAHIDimage from "../assets/images/NAHID.jpg";
 import image6 from "../assets/images/Pial.jpg";
 import image7 from "../assets/images/Rifat.jpg";
 import image8 from "../assets/images/Bayazid.jpg";
@@ -13,20 +13,57 @@ import image9 from "../assets/images/Masud.jpg";
 import image10 from "../assets/images/Yeasin.jpg";
 import image11 from "../assets/images/Riyad.jpg";
 import image12 from "../assets/images/Nayem.jpg";
+import Ayonimage from "../assets/images/Ayon.jpg";
+import ARGHOimage from "../assets/images/ARGHO.jpg";
+import RAHATimage from "../assets/images/RAHAT.jpg";
+import Prantoimage from "../assets/images/Pranto.jpg";
+import Obaydulimage from "../assets/images/Obaydul.jpg";
+import Hridoyimage from "../assets/images/Hridoy.jpg";
+import Sohanimage from "../assets/images/Sohan.jpg";
+import Hasanurimage from "../assets/images/Hasanur.jpg";
+import RifatJRimage from "../assets/images/Rifat JR.jpg";
+import Abidimage from "../assets/images/Abid .jpg";
+import Milonimage from "../assets/images/Milon.jpg";
+import Ismailimage from "../assets/images/Ismail.jpg";
+import Riajulimage from "../assets/images/Riajul.jpg";
+import Rummanimage from "../assets/images/Rumman.jpg";
+import Hridoy1image from "../assets/images/Hridoy1.jpg";
+import Ismail1image from "../assets/images/Ismail1.jpg";
+import Rabbi1image from "../assets/images/Rabbi.jpg";
+import Hussainimage from "../assets/images/Husain.jpg";
+import Sohelimage from "../assets/images/Sohel.jpg";
+import Sohagimage from "../assets/images/Sohag.jpg";
+import Rakibimage from "../assets/images/Rakib.jpg";
+import Opuimage from "../assets/images/Opu.jpg";
+import Sabbirimage from "../assets/images/Sabbir.jpg";
+import Abidjrimage from "../assets/images/Abidjr.jpg";
+import Rabbijrimage from "../assets/images/Rabbijr.jpg";
+import Rakib2image from "../assets/images/Rakib2.jpg";
+import Sayedimage from "../assets/images/Sayed.jpg";
+import Jahidulimage from "../assets/images/Jahidul.jpg";
+import Hasibulimage from "../assets/images/Hasibul.jpg";
+import Bayzidimage from "../assets/images/Bayzid.jpg";
+import Shahedimage from "../assets/images/Shahed.jpg";
+import Hasanimage from "../assets/images/Hasan.jpg";
+import Joshimimage from "../assets/images/Joshim.jpg";
+import Khirulimage from "../assets/images/Khirul.jpg";
+import Jahidimage from "../assets/images/Jahid.jpg";
+import Hussain2image from "../assets/images/Hussain.jpg";
+import Tarifimage from "../assets/images/Tarif.jpg";
 
 const player = [
   {
     id: 1,
     category: "B",
-    name: "Ferdaus Munna",
-    age: 30,
+    name: "Sohan",
+    age: 26,
     position: "Defender",
     jerseyNumber: 9,
     preferredFoot: "Right",
-    height: "6ft",
+    height: "5 ft 6 in",
     nationality: "Bangladesh",
-    image: munna,
-    profileImage: profileImage1,
+    image: Sohanimage,
+    profileImage: Sohanimage,
   },
   {
     id: 2,
@@ -64,15 +101,16 @@ const player = [
     image: image4,
   },
   {
-    id: 5,
+    id: 32,
     category: "C",
     name: "Nahid",
     age: 18,
-    position: "Midfielder",
+    position: "Defender",
     preferredFoot: "Right",
     height: "5 ft 10 in",
     nationality: "Bangladesh",
-    image: image5,
+    image: NAHIDimage,
+    profileImage: NAHIDimage,
   },
   {
     id: 6,
@@ -84,6 +122,7 @@ const player = [
     height: "5 ft 11 in",
     nationality: "Bangladesh",
     image: image7,
+    profileImage: image7,
   },
   {
     id: 7,
@@ -100,12 +139,13 @@ const player = [
     id: 8,
     category: "C",
     name: "Pranto",
-    age: 18,
+    age: 16,
     position: "Defender",
     preferredFoot: "Right",
     height: "5 ft 10 in",
     nationality: "Bangladesh",
-    image: image1,
+    image: Prantoimage,
+    profileImage: Prantoimage,
   },
 
   {
@@ -117,7 +157,8 @@ const player = [
     preferredFoot: "Both",
     height: "5 ft 2 in",
     nationality: "Bangladesh",
-    image: image1,
+    image: Jahidimage,
+    profileImage: Jahidimage,
   },
 
   {
@@ -140,7 +181,8 @@ const player = [
     preferredFoot: "Right",
     height: "5 ft 7 in",
     nationality: "Bangladesh",
-    image: image1,
+    image: RAHATimage,
+    profileImage: RAHATimage,
   },
 
   {
@@ -158,12 +200,13 @@ const player = [
     id: 13,
     category: "A",
     name: "Joshim",
-    age: 17,
+    age: 28,
     position: "Defender",
     preferredFoot: "Right",
-    height: "5 ft 8 in",
+    height: "5 ft 6 in",
     nationality: "Bangladesh",
-    image: image1,
+    image: Joshimimage,
+    profileImage: Joshimimage,
   },
   {
     id: 14,
@@ -174,7 +217,8 @@ const player = [
     preferredFoot: "Right",
     height: "5 ft 8 in",
     nationality: "Bangladesh",
-    image: image1,
+    image: Tarifimage,
+    profileImage: Tarifimage,
   },
   {
     id: 15,
@@ -185,7 +229,8 @@ const player = [
     preferredFoot: "Right",
     height: "5 ft 6 in",
     nationality: "Bangladesh",
-    image: image1,
+    image: Milonimage,
+    profileImage: Milonimage,
   },
   {
     id: 16,
@@ -196,7 +241,8 @@ const player = [
     preferredFoot: "Right",
     height: "5 ft 4 in",
     nationality: "Bangladesh",
-    image: image1,
+    image: ARGHOimage,
+    profileImage: ARGHOimage,
   },
   {
     id: 17,
@@ -339,18 +385,344 @@ const player = [
     preferredFoot: "Right",
     height: "5 ft 3 in",
     nationality: "Bangladesh",
-    image: image1,
+    image: Hussain2image,
+    profileImage: Hussain2image,
   },
   {
     id: 30,
     category: "A",
-    name: "Hasibul",
-    age: 34,
+    name: "Khirul",
+    age: 26,
     position: "Forward",
+    preferredFoot: "Right",
+    height: "5 ft 5 in",
+    nationality: "Bangladesh",
+    image: Khirulimage,
+    profileImage: Khirulimage,
+  },
+  {
+    id: 31,
+    category: "C",
+    name: "Ayon",
+    age: 17,
+    position: "Defender",
     preferredFoot: "Right",
     height: "5 ft 3 in",
     nationality: "Bangladesh",
-    image: image1,
+    image: Ayonimage,
+    profileImage: Ayonimage,
+  },
+  {
+    id: 5,
+    category: "C",
+    name: "Obaydul",
+    age: 34,
+    position: "Defender",
+    preferredFoot: "Right",
+    height: "5 ft 8 in",
+    nationality: "Bangladesh",
+    image: Obaydulimage,
+    profileImage: Obaydulimage,
+  },
+  {
+    id: 33,
+    category: "B",
+    name: "Hridoy",
+    age: 24,
+    position: "Defender",
+    preferredFoot: "Right",
+    height: "5 ft 4 in",
+    nationality: "Bangladesh",
+    image: Hridoyimage,
+    profileImage: Hridoyimage,
+  },
+  {
+    id: 34,
+    category: "A",
+    name: "Hasanur",
+    age: 21,
+    position: "Defender",
+    preferredFoot: "Right",
+    height: "5 ft 6 in",
+    nationality: "Bangladesh",
+    image: Hasanurimage,
+    profileImage: Hasanurimage,
+  },
+  {
+    id: 35,
+    category: "C",
+    name: "Rifat JR",
+    age: 12,
+    position: "Midfielder",
+    preferredFoot: "Right",
+    height: "4 ft 8 in",
+    nationality: "Bangladesh",
+    image: RifatJRimage,
+    profileImage: RifatJRimage,
+  },
+  {
+    id: 36,
+    category: "B",
+    name: "Abid",
+    age: 21,
+    position: "Midfielder",
+    preferredFoot: "Right",
+    height: "5 ft 10 in",
+    nationality: "Bangladesh",
+    image: Abidimage,
+    profileImage: Abidimage,
+  },
+  {
+    id: 37,
+    category: "B",
+    name: "Ismail",
+    age: 18,
+    position: "Forward",
+    preferredFoot: "Right",
+    height: "5 ft 5 in",
+    nationality: "Bangladesh",
+    image: Ismailimage,
+    profileImage: Ismailimage,
+  },
+  {
+    id: 38,
+    category: "B",
+    name: "Riajul",
+    age: 25,
+    position: "Goalkeeper",
+    preferredFoot: "Right",
+    height: "5 ft 5 in",
+    nationality: "Bangladesh",
+    image: Riajulimage,
+    profileImage: Riajulimage,
+  },
+  {
+    id: 39,
+    category: "A",
+    name: "Rumman",
+    age: 15,
+    position: "Defender",
+    preferredFoot: "Left",
+    height: "5 ft 2 in",
+    nationality: "Bangladesh",
+    image: Rummanimage,
+    profileImage: Rummanimage,
+  },
+  {
+    id: 40,
+    category: "B",
+    name: "Hridoy",
+    age: 22,
+    position: "Midfielder",
+    preferredFoot: "Both",
+    height: "5 ft 7 in",
+    nationality: "Bangladesh",
+    image: Hridoy1image,
+    profileImage: Hridoy1image,
+  },
+  {
+    id: 41,
+    category: "B",
+    name: "Ismail",
+    age: 25,
+    position: "Midfielder",
+    preferredFoot: "Both",
+    height: "5 ft 9 in",
+    nationality: "Bangladesh",
+    image: Ismail1image,
+    profileImage: Ismail1image,
+  },
+  {
+    id: 42,
+    category: "B",
+    name: "Rabbi",
+    age: 19,
+    position: "Forward",
+    preferredFoot: "Both",
+    height: "5 ft 1 in",
+    nationality: "Bangladesh",
+    image: Rabbi1image,
+    profileImage: Rabbi1image,
+  },
+  {
+    id: 43,
+    category: "B",
+    name: "Hussain",
+    age: 17,
+    position: "Forward",
+    preferredFoot: "Right",
+    height: "5 ft 7 in",
+    nationality: "Bangladesh",
+    image: Hussainimage,
+    profileImage: Hussainimage,
+  },
+  {
+    id: 44,
+    category: "B",
+    name: "Sohel",
+    age: 26,
+    position: "Midfielder",
+    preferredFoot: "Right",
+    height: "5 ft 6 in",
+    nationality: "Bangladesh",
+    image: Sohelimage,
+    profileImage: Sohelimage,
+  },
+  {
+    id: 45,
+    category: "A",
+    name: "Sohag",
+    age: 26,
+    position: "Defender",
+    preferredFoot: "Right",
+    height: "5 ft 6 in",
+    nationality: "Bangladesh",
+    image: Sohagimage,
+    profileImage: Sohagimage,
+  },
+  {
+    id: 46,
+    category: "B",
+    name: "Rakib",
+    age: 20,
+    position: "Forward",
+    preferredFoot: "Left",
+    height: "5 ft 7 in",
+    nationality: "Bangladesh",
+    image: Rakibimage,
+    profileImage: Rakibimage,
+  },
+  {
+    id: 47,
+    category: "A",
+    name: "Opu",
+    age: 25,
+    position: "Goalkeeper",
+    preferredFoot: "Left",
+    height: "5 ft 8 in",
+    nationality: "Bangladesh",
+    image: Opuimage,
+    profileImage: Opuimage,
+  },
+  {
+    id: 48,
+    category: "B",
+    name: "Sabbir",
+    age: 23,
+    position: "Midfielder",
+    preferredFoot: "Right",
+    height: "5 ft 6 in",
+    nationality: "Bangladesh",
+    image: Sabbirimage,
+    profileImage: Sabbirimage,
+  },
+  {
+    id: 49,
+    category: "C",
+    name: "Abid",
+    age: 21,
+    position: "Forward",
+    preferredFoot: "Right",
+    height: "5 ft 4 in",
+    nationality: "Bangladesh",
+    image: Abidjrimage,
+    profileImage: Abidjrimage,
+  },
+  {
+    id: 50,
+    category: "B",
+    name: "Rabbi",
+    age: 22,
+    position: "Goalkeeper",
+    preferredFoot: "Right",
+    height: "5 ft 8 in",
+    nationality: "Bangladesh",
+    image: Rabbijrimage,
+    profileImage: Rabbijrimage,
+  },
+  {
+    id: 50,
+    category: "B",
+    name: "Rakib",
+    age: 24,
+    position: "Forward",
+    preferredFoot: "Right",
+    height: "5 ft 6 in",
+    nationality: "Bangladesh",
+    image: Rakib2image,
+    profileImage: Rakib2image,
+  },
+  {
+    id: 51,
+    category: "A",
+    name: "Sayed",
+    age: 24,
+    position: "Defender",
+    preferredFoot: "Right",
+    height: "5 ft 6 in",
+    nationality: "Bangladesh",
+    image: Sayedimage,
+    profileImage: Sayedimage,
+  },
+  {
+    id: 52,
+    category: "B",
+    name: "Jahidul",
+    age: 22,
+    position: "Defender",
+    preferredFoot: "Right",
+    height: "5 ft 3 in",
+    nationality: "Bangladesh",
+    image: Jahidulimage,
+    profileImage: Jahidulimage,
+  },
+  {
+    id: 53,
+    category: "A",
+    name: "Hasibul",
+    age: 34,
+    position: "Midfielder",
+    preferredFoot: "Both",
+    height: "5 ft 3 in",
+    nationality: "Bangladesh",
+    image: Hasibulimage,
+    profileImage: Hasibulimage,
+  },
+  {
+    id: 54,
+    category: "C",
+    name: "Bayzid",
+    age: 18,
+    position: "Forward",
+    preferredFoot: "Right",
+    height: "5 ft 8 in",
+    nationality: "Bangladesh",
+    image: Bayzidimage,
+    profileImage: Bayzidimage,
+  },
+  {
+    id: 55,
+    category: "B",
+    name: "Shahed",
+    age: 22,
+    position: "Midfielder",
+    preferredFoot: "Right",
+    height: "5 ft 8 in",
+    nationality: "Bangladesh",
+    image: Shahedimage,
+    profileImage: Shahedimage,
+  },
+  {
+    id: 56,
+    category: "A",
+    name: "Hasan",
+    age: 21,
+    position: "Goalkeeper",
+    preferredFoot: "Right",
+    height: "5 ft 7 in",
+    nationality: "Bangladesh",
+    image: Hasanimage,
+    profileImage: Hasanimage,
   },
 ];
 

@@ -164,7 +164,7 @@ const Players = () => {
           className='fixed inset-0 bg-black/70 flex items-center justify-center z-50 cursor-pointer'>
           <div
             onClick={(e) => e.stopPropagation()}
-            className='bg-gray-900 p-10 rounded-3xl shadow-2xl max-w-2xl w-full text-white animate-fadeIn'>
+            className='bg-gray-900 pt-2 pl-2 pr-2 rounded-3xl shadow-2xl max-w-4xl w-full text-white animate-fadeIn'>
             {/* Header */}
             <div className='flex justify-between items-start'>
               <h2 className='text-4xl font-bold mb-4'>{modalPlayer.name}</h2>
@@ -176,9 +176,9 @@ const Players = () => {
             </div>
 
             {/* Player Details */}
-            <div className='bg-white rounded-2xl shadow-2xl overflow-hidden w-full max-w-2xl'>
+            <div className='bg-white rounded-2xl shadow-2xl overflow-hidden w-full max-w-4xl'>
               <div
-                className='p-10 pt-52 pb-52 flex flex-col justify-center relative'
+                className='p-20 pt-48 pb-48 flex flex-col justify-center relative'
                 style={{
                   backgroundImage: `url(${modalPlayer.image})`,
                   backgroundSize: "cover",
@@ -193,31 +193,31 @@ const Players = () => {
 
                   <div className='space-y-3 text-lg'>
                     <p>
-                      <strong>Position:</strong>{" "}
+                      <strong>Position:</strong> <br />
                       <span className='text-amber-400 uppercase font-bold'>
                         {modalPlayer.position}
                       </span>
                     </p>
                     <p>
-                      <strong>Preferred Foot:</strong>{" "}
+                      <strong>Preferred Foot:</strong> <br />
                       <span className='text-amber-400 uppercase font-bold'>
                         {modalPlayer.preferredFoot}
                       </span>
                     </p>
                     <p>
-                      <strong>Age:</strong>{" "}
+                      <strong>Age:</strong> <br />
                       <span className='text-amber-400 uppercase font-bold'>
                         {modalPlayer.age} years
                       </span>
                     </p>
                     <p>
-                      <strong>Height:</strong>{" "}
+                      <strong>Height:</strong> <br />
                       <span className='text-amber-400 uppercase font-bold'>
                         {modalPlayer.height}
                       </span>
                     </p>
                     <p>
-                      <strong>Nationality:</strong>{" "}
+                      <strong>Nationality:</strong> <br />
                       <span className='text-amber-400 uppercase font-bold'>
                         {modalPlayer.nationality}
                       </span>

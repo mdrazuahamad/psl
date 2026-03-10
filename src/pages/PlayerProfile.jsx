@@ -45,31 +45,31 @@ const PlayerProfile = () => {
 
             <div className='space-y-3 text-lg'>
               <p>
-                <strong>Position:</strong>{" "}
+                <strong>Position:</strong> <br />
                 <span className='text-amber-400 uppercase font-bold'>
                   {player.position}
                 </span>
               </p>
               <p>
-                <strong>Preferred Foot:</strong>{" "}
+                <strong>Preferred Foot:</strong> <br />
                 <span className='text-amber-400 uppercase font-bold'>
                   {player.preferredFoot}
                 </span>
               </p>
               <p>
-                <strong>Age:</strong>{" "}
+                <strong>Age:</strong> <br />
                 <span className='text-amber-400 uppercase font-bold'>
                   {player.age} years
                 </span>
               </p>
               <p>
-                <strong>Height:</strong>{" "}
+                <strong>Height:</strong> <br />
                 <span className='text-amber-400 uppercase font-bold'>
                   {player.height}
                 </span>
               </p>
               <p>
-                <strong>Nationality:</strong>{" "}
+                <strong>Nationality:</strong> <br />
                 <span className='text-amber-400 uppercase font-bold'>
                   {player.nationality}
                 </span>
