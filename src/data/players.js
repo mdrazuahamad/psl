@@ -832,7 +832,7 @@ const player = [
   {
     id: 62,
     category: "B",
-    name: "Rifat",
+    name: "Rifad",
     age: 21,
     position: "Defender",
     preferredFoot: "Right",
