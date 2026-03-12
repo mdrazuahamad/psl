@@ -1321,6 +1321,18 @@ const player = [
     image: Kaiyumimage,
     profileImage: Kaiyumimage,
   },
+  {
+    id: 97,
+    category: "C",
+    name: "Manik",
+    age: 14,
+    position: "Forward",
+    preferredFoot: "Right",
+    height: "5 ft ",
+    nationality: "Bangladesh",
+    image: image1,
+    profileImage: image1,
+  },
 ];
 
 export default player;
